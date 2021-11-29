@@ -1,0 +1,42 @@
+body{
+  min-height: 100vh;
+  background-image: url(https://cdn.wikimg.net/en/strategywiki/images/1/1b/Halo_Blood_Gulch.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover; 
+}
+
+.text-center{
+  text-align: center;
+}
+
+.selectable:hover{
+  background-color: rgba(216, 212, 209, 0.288);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.custom-border{
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.text-shadow{
+  filter: drop-shadow(2px 4px 8px black);
+}
+
+h1{
+  color: aquamarine;
+  font-family: 'Stardos Stencil', sans-serif;
+  text-transform: uppercase;
+  display: inline;
+}
+
+img{
+  height: 40vh;
+  width: 40vw;
+  border: black;
+  border-radius: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
